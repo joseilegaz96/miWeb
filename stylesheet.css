@@ -1,0 +1,32 @@
+main {
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    box-shadow:  5px 4px gray;
+    border-radius: 10px;
+    background-color: tomato;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#elements {
+    color: wheat;
+    /*background-color: black;*/
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: 30px;
+
+}
+
+#elements2 {
+    color: wheat;
+    /*background-color: black;*/
+    border-radius: 10px;
+    text-align: center;
+}
+ 

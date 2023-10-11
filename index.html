@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>El primer script</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+    <main>
+        <h1>Conversos de Divisas</h1>
+        <div id="elements">
+            <p class="message">Introduce la cantidad:</p>
+            <input type="number" id="valorUsuario">
+        </div>
+        <div id="elements2">
+            <form action="">
+                <label class="message">Convertir a:</label>
+                <select name="divisas" id="divisas">
+                <option value="aureo">Áureo</option>
+                <option value="denario">Denario Argentus</option>
+                <option value="sestercio">Sestercio Bronce</option>
+                <option value="denarii">Denarii</option>
+                </select><br>
+                <input type="text" id="resultado" disabled="disabled">
+                <button type="button" id="enviar">Enviar</button>
+            </form>
+        </div>
+    </main>
+    <script type="text/javascript" src="js.js">
+    </script>
+</body>
+</html>
